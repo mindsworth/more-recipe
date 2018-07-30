@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i');
+@font-face {
+    font-family: 'pacifico';
+    src: url('../font/pacifico.ttf');
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../font/montserrat.ttf');
+}
 *{
   padding: 0px;
   margin: 0px;
@@ -14,6 +23,81 @@ body{
   overflow-x: hidden;
 }
 
+header{
+  background: #152C81;
+  color: #ffffff;
+  padding-top: 0px;
+  min-height: 103px;
+  border-bottom: #FF7F00 3px solid;
+}
+
+header h1{
+  font-family: 'pacifico';
+}
+
+header span{
+  font-family: 'pacifico'
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  padding: 0 20px 0 20px;
+  display: inline;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+
+  position: relative;
+  font-size: 37px;
+  top: 10px;
+  left: 91px;
+}
+
+header nav{
+  float:right;
+  margin-top: 10px;
+  font-family: 'Roboto';
+  margin-top: 28px;
+  margin-right: 150px;
+}
+
+header .highlight, header .current a{
+  color: #FF7F00;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+header button{
+  background-color: #152C81;
+  color: white;
+  font-family: 'Roboto';
+  padding: 5px 8px 5px 8px;
+  margin-bottom: 14px;
+  border: 1px solid white;
+}
+
+header button:hover{
+  background-color: #FF7F00;
+  color: white;
+  border:none;
+}
+
 div.wrapper {
   width: 100%;
   height: 100%;
@@ -21,24 +105,24 @@ div.wrapper {
 }
 
 div.wrapper div.form-wrapper {
-    width: 30%;
-    min-width: 300px;
-    margin: auto;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    /* background: rgba(51, 89, 222, 0.1); */
-    background: rgba(158, 158, 158, 0.2);
-    color: #152C81;
+  width: 30%;
+  min-width: 300px;
+  margin: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  /* background: rgba(51, 89, 222, 0.1); */
+  background: rgba(158, 158, 158, 0.2);
+  color: #152C81;
 }
 
-div.form-wrapper form header.form-header {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 25px;
-    font-weight: 600;
-    margin: 5px;
-    margin-bottom: 13px;
+div.form-wrapper form div.form-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px;
+  margin-bottom: 13px;
 }
 
 form div.input-wrapper {
