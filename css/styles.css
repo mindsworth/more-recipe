@@ -32,15 +32,19 @@ ul{
 /*Header */
 
 header{
-  background: #35424a;
+  background: #152C81;
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #4CAF50 3px solid;
+  border-bottom: #FF7F00 3px solid;
 }
 
 header h1{
   font-family: 'pacifico';
+}
+
+header span{
+  font-family: 'pacifico'
 }
 
 header a{
@@ -67,11 +71,11 @@ header #branding h1{
 header nav{
   float:right;
   margin-top: 10px;
-  font-family: 'montserrat';
+  font-family: 'Roboto';
 }
 
 header .highlight, header .current a{
-  color: #4CAF50;
+  color: #FF7F00;
   font-weight: bold;
 }
 
@@ -81,16 +85,16 @@ header a:hover{
 }
 
 header button{
-    background-color: #35424a;
+    background-color: #152C81;
     color: white;
-    font-family: 'montserrat';
+    font-family: 'Roboto';
     padding: 5px 8px 5px 8px;
     margin-bottom: 14px;
     border: 1px solid white;
 }
 
 header button:hover{
-  background-color: #4CAF50;
+  background-color: #FF7F00;
   color: white;
   border:none;
 }
@@ -110,8 +114,8 @@ header button:hover{
 
 .wrapper > div{
   background: linear-gradient(
-      rgba(53, 66, 74, 0.6),
-      rgba(53, 66, 74, 0.6)
+      rgba(21, 44, 129, 0.6),
+      rgba(21, 44, 129, 0.6)
     ),no-repeat;
     color: white;
     padding: 1em;
@@ -119,8 +123,8 @@ header button:hover{
 }
 
 .wrapper h1{
-  color: #35424a;
-  font-family: 'montserrat';
+  color: #152C81;
+  font-family: 'Roboto';
   font-weight: 500px;
   font-size: 22px;
   text-align: center;
@@ -129,7 +133,7 @@ header button:hover{
 .wrapper h5, span{
   color: white;
   text-align: center;
-  font-family: 'montserrat'
+  font-family: 'Roboto'
 }
 
 .wrapper p{
@@ -140,7 +144,7 @@ header button:hover{
   padding: 0 0 0 0;
   justify-content: center;
   text-align: center;
-  font-family: 'montserrat';
+  font-family: 'Roboto';
 }
 
 
@@ -158,7 +162,7 @@ header button:hover{
     display: block;
     width: 56px;
     height: 56px;
-    background-color: #4CAF50;
+    background-color: #FF7F00;
     border-radius: 50%;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
   }
@@ -189,21 +193,6 @@ header button:hover{
     background-color: rgba(0,0,0,0.4);
 }
 
-/* Modal Content */
-/* .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 40%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-}
-
 /* Add Animation */
 @-webkit-keyframes animatetop {
     from {top:-50%; opacity:0}
@@ -213,83 +202,6 @@ header button:hover{
 @keyframes animatetop {
     from {top:-50%; opacity:0}
     to {top:0; opacity:1}
-}
-
-/*
-.close {
-    color: #000;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    background-color: #fefefe;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-header {
-    padding: 2px 16px;
-    background-color: #fefefe;
-}
-
-.modal-body {padding: 2px 16px;}
-
-.modal-body .title{
-  font-size: 18px;
-  font-weight:bold;
-  margin: 0;
-  margin-top: 10px;
-  color: #35424a;
-  padding: 0;
-  font-family: 'montserrat';
-}
-
-.modal-body .text{
-  font-size: 16px;
-  margin: 0;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  font-weight:normal;
-  font-family: 'montserrat';
-  color: #35424a;
-}
-
-.modal-body hr{
-  margin-top: 1px;
-  margin-bottom: 10px;
-  padding-top: 0;
-}
-
-
-.modal-footer {
-    background-color: #fefefe;
-    color: white;
-
-} */
-
-.edit{
-  width: 50%;
-  background-color: #4CAF50;
-  float: left;
-  color: white;
-  font-size: 20px;
-  border: none;
-  padding: 7px 16px;
-  font-family: 'montserrat';
-}
-.save{
-  width: 50%;
-  background-color: #e2e2e1;
-  float: right;
-  color: #000;
-  font-size: 20px;
-  border: none;
-  padding: 7px 16px;
-  font-family: 'montserrat';
 }
 
 @media screen and (max-width: 800px) {
@@ -310,13 +222,6 @@ header button:hover{
 
   .fab{
     left:90%;
-  }
-  .modal-content{
-    width: 80%;
-  }
-
-  .modal{
-    padding-top: 20%;
   }
 
  }
