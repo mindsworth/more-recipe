@@ -1,1 +1,1 @@
-This a more recipe application
+This a more recipe application.
