@@ -197,7 +197,7 @@ div.input-wrapper input.input {
 }
 
 div.input-wrapper .input::-webkit-input-placeholder {
-  color: #aaa;
+  color: #666;
 }
 
 div.input-wrapper input[type="file"]{
