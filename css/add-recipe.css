@@ -18,7 +18,7 @@ ul {
 
 button,input,select,textarea {
   margin: 0;
-}
+6
 
 html {
   box-sizing: border-box;
@@ -55,7 +55,7 @@ body{
   font-family: "Roboto", sans-serif;
   font-size: 1.6em;
   overflow-x: hidden;
-  background: url("https://images.pexels.com/photos/33486/soup-vegetables-pot-cooking.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background: url("img/brooke-lark-331981-unsplash.jpg");
   background-size: cover;
 }
 
