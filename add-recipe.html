@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>MoreRecipe | Add Recipe</title>
+    <link rel="stylesheet" href="./css/add-recipe.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <div class="form-wrapper">
+        <form action="">
+          <header class="form-header">
+            Add New Recipe
+          </header>
+          <div class="input-wrapper">
+            <label class="input-wrapper" for="name">
+              Name 
+            </label>
+            <input 
+              id="name"
+              name="name"
+              class="input" 
+              type="text" 
+              placeholder="Recipe Name"
+              />
+          </div>
+          <!-- end of input wrapper -->
+          <div class="input-wrapper">
+            <label class="input-wrapper" for="description">
+              Description
+            </label>
+            <textarea 
+              id="descriptions"
+              name="descriptions"
+              class="input" 
+              placeholder="Recipe Description"
+              ></textarea>
+          </div>
+          <!-- end of input wrapper -->
+          <div class="input-wrapper">
+            <label class="input-wrapper" for="img_url">
+              Image URL
+            </label>
+            <input 
+              id="img_url"
+              name="img_url"
+              class="input" 
+              type="url" 
+              placeholder="Recipe Image"
+              />
+          </div>
+          <!-- end of input wrapper -->
+          <div class="input-wrapper">
+            <label class="input-wrapper" for="ingredients">
+              Ingredients
+            </label>
+            <textarea 
+              id="ingredients"
+              name="ingredients"
+              class="input" 
+              placeholder="Recipe Ingredients"
+              ></textarea>
+            <p class="info">separate ingredients with comma*</p>
+          </div>
+          <!-- end of input wrapper -->
+          <div class="input-wrapper">
+            <label class="input-wrapper" for="instructions">
+              Instructions
+            </label>
+            <textarea 
+              id="instruction"
+              name="instruction"
+              class="input" 
+              placeholder="Recipe Instructions"
+              ></textarea>
+            <p class="info">separate instructions with comma*</p>
+          </div>
+          <!-- end of input wrapper -->
+          <div class="form-btn">
+            <button class="btn-submit">Add</button>
+          </div>
+          <!-- end of form btn -->
+        </form>
+      </div>
+      <!-- end of form wrapper -->
+    </div>
+    <!-- end of wrapper -->
+
+  </body>
+</html>

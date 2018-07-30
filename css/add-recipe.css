@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i');
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  min-height: 550px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6em;
+  overflow-x: hidden;
+}
+
+div.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+div.wrapper div.form-wrapper {
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    /* background: rgba(51, 89, 222, 0.1); */
+    background: rgba(158, 158, 158, 0.2);
+    color: #152C81;
+}
+
+div.form-wrapper form header.form-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px;
+    margin-bottom: 13px;
+}
+
+form div.input-wrapper {
+  margin: 10px 0px;
+  position: relative;
+}
+
+div.input-wrapper p.info {
+  position: absolute;
+  bottom: -6px;
+  left: 0px;
+  font-size: 11px;
+  color: green;
+  font-weight: 600;
+}
+
+div.input-wrapper label.input-wrapper{
+  display: block;
+  font-size: 14px;
+  font-weight: 600;  
+}
+
+div.input-wrapper textarea.input,
+div.input-wrapper input.input {
+  width: 100%;
+  padding: 9px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  border: 0.5px solid #ccc;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  resize: none;
+  outline: none;
+}
+
+div.input-wrapper .input::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+div.input-wrapper input[type="file"]{
+  padding: 6px;
+  background: #fff;
+  margin-bottom: 6px;
+}
+
+form div.form-btn {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+div.form-btn button.btn-submit {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  background: #3359DE;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
