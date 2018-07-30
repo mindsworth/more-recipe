@@ -88,4 +88,5 @@ input{
 input[type=submit]{
   background-color: #152C81;
   color: white;
+  cursor: pointer;
 }
