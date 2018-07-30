@@ -30,5 +30,4 @@ Point a web browser to `index.html`  to get started
 
 ## API Docs
 
-[https://github.com/mindsworth/more-recipe](https://github.com/mindsworth/more-recipe)
- - 
+[https://github.com/mindsworth/more-recipe](https://github.com/mindsworth/more-recipe) 
