@@ -1,0 +1,75 @@
+/* Basic resets */
+
+html,body,p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,input,select,textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+}
+
+body{
+  background-image: url('../assets/brooke-lark-331981-unsplash.jpg');
+  background-size: cover;
+  font-size: 16px;
+  font-family: 'Roboto', 'helvetiva', sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 2.1em;
+  text-align: center;
+  margin: 20px;
+}
+
+h2{
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  padding: 15px;
+  margin: 10px;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+}
