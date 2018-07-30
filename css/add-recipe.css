@@ -18,7 +18,7 @@ ul {
 
 button,input,select,textarea {
   margin: 0;
-}
+6
 
 html {
   box-sizing: border-box;
@@ -55,6 +55,8 @@ body{
   font-family: "Roboto", sans-serif;
   font-size: 1.6em;
   overflow-x: hidden;
+  background: url("img/brooke-lark-331981-unsplash.jpg");
+  background-size: cover;
 }
 
 header{
@@ -146,8 +148,9 @@ div.wrapper div.form-wrapper {
   padding: 10px;
   border-radius: 5px;
   /* background: rgba(51, 89, 222, 0.1); */
-  background: rgba(158, 158, 158, 0.2);
   color: #152C81;
+  background: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 1px #fff;
 }
 
 div.form-wrapper form div.form-header {
@@ -190,10 +193,11 @@ div.input-wrapper input.input {
   font-family: "Roboto", sans-serif;
   resize: none;
   outline: none;
+  background: #eee;
 }
 
 div.input-wrapper .input::-webkit-input-placeholder {
-  color: #ccc;
+  color: #666;
 }
 
 div.input-wrapper input[type="file"]{
